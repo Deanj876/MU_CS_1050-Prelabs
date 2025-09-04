@@ -35,8 +35,9 @@ int main(void) {
     // scanf statment to take and store the input's from the user.
     scanf("%d %d %d %d", &integer1, &integer2, &integer3, &integer4);
 
-    // 
+    
     printf("*** Initial values ***\n");
+    // Prints the value of A, B, C, and D.
     printf("A=%d\n", integer1);
     printf("B=%d\n", integer2);
     printf("C=%d\n", integer3);
