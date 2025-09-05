@@ -11,25 +11,26 @@ int main(void) {
         • Print the value of the quantity A times C divided by (integer division) the quantity B + D.
     */
 
-    /*    Sample Output
-        Enter 4 integers (A,B,C,D) separated by spaces: 4 3 5 7
-        *** Initial values ***
-        A=4
-        B=3
-        C=5
-        D=7
-        *** Calculated values ***
-        The sum of B and C = 8
-        The product of A and D = 28
-        The integer quotient of A divided by C = 0
-        The integer remainder of C divided by D = 5
-        The product of A and C divided by the quantity sum of B and D = 2
+    /*  Things to rember about HellBender and the Lab
+        In order to compile our code, type the following: compile [filename].c
+            • Compile [Filename].c
+        Then Execute the [./a.out] command, this will execute our code
+            • ./a.out
+        Now to Submit the code, type the following command: mucsmake 1050 [Lab name] [Filename].c
+            • mucsmake 1050 [LabName] [Filename].c
+                • Response sould be green with the details of the lab / submission
+
+        To run code in VS using the WSL (Windows System Linux) terminal, type this:
+            • gcc Prelab_2.c -o Prelab_2
+            • ./Prelab_2
     */
+
     int integer1;
     int integer2;
     int integer3;
     int integer4;
-    int sum;
+    int sum; //don't really need to make another variable, just felt like it :)
+
     // Printf statment to ask the input from the user.
     printf("Enter 4 integers (A,B,C,D) separated by spaces: ");
     // scanf statment to take and store the input's from the user.
