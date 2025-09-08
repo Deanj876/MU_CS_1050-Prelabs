@@ -11,7 +11,7 @@ int main(void) {
         • Print the value of the quantity A times C divided by (integer division) the quantity B + D.
     */
 
-    /*  Things to rember about HellBender and the Lab
+    /*  Things to rember about Hellbender and the Lab
         In order to compile our code, type the following: compile [filename].c
             • Compile [Filename].c
         Then Execute the [./a.out] command, this will execute our code
