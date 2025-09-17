@@ -12,6 +12,8 @@ Description
         • If the current integer is divisible by 5, print “Buzz”.
         • If the current integer is divisible by both 3 and 5, print “Fizz Buzz”.
         • If the current integer is divisible by neither 3 nor 5, print the integer.
+
+
 You should print a comma after each thing you print (whether “Fizz”, “Buzz”, “Fizz Buzz”,
 or a number), except for the last one. If you have trouble doing all but the last one, it is OK to
 print a comma after the last one too, but. . . cooler if you don’t!
