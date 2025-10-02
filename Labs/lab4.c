@@ -26,6 +26,7 @@ int main(void){
             finalSum += i;
         }
     }
+
     // prints final sum.
     printf("%d\n", finalSum);
 
@@ -115,6 +116,7 @@ int main(void){
     }
     // If correct ends the code and moves on aka "The door unlocks", otherwise (if they get it wrong or run out of attempts) it ends.
     while(!correct && ++attempts < 3);
+
     if(correct){
         printf("Correct! The door unlocks.\n");
     } else {
@@ -134,6 +136,7 @@ int main(void){
     // Prints out the result
     printf("The final Mystic Code is: %d\n", finalMysticCode);
     // Reads it as "If finalMysticCode equals 2042, print value for true, else print false", the true or false being our ending outputs.
+    printf("The Kingdom of Code is: %s\n", (finalMysticCode == 2042) ? "SAVED!" : "DOOMED!");
     printf("%s\n", (finalMysticCode == 2042) ? "The Kingdom of Code is SAVED!" : "The Kingdom of Code is DOOMED!");
 
 
